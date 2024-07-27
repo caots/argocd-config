@@ -8,8 +8,8 @@ spec:
 
   source:
     repoURL: https://github.com/caots/argocd-config
-    targetRevision: HEAD
-    path: dev
+    targetRevision: master
+    path: kubernetes/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
