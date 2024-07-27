@@ -7,4 +7,4 @@ namespace: myapp
 images:
 - name: demo-frontend
   newName: caocr/demo-frontend
-  newTag: master-cfacacdf-1722065019
+  newTag: master-9f040540-1722065188
