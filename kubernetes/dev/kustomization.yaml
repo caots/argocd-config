@@ -4,3 +4,7 @@ resources:
 - deployment.yaml
 - service.yaml
 namespace: myapp
+images:
+- name: demo-frontend
+  newName: caocr/demo-frontend
+  newTag: master-9b51bc69-1722064725
