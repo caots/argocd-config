@@ -64,7 +64,7 @@ jobs:
 
     - name: Update Kubernetes resources for dev
       run: |
-        cd kubernetes/develop/
+        cd kubernetes/dev/
         kustomize edit set image ${{ env.CONTAINER_NAME }}=${{ steps.docker_build.outputs.image }}
         cat kustomization.yaml
 
